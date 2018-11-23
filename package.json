@@ -1,7 +1,7 @@
 {
   "name": "react-layout",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.2",
+  "description": "A front end layout framework for react written with CSS grid",
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,9 +9,9 @@
     "transpile": "babel src -d dist --copy-files",
     "prepublishOnly": "npm run transpile"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["react", "react-component", "CSS-grid"],
+  "author": "SSENSE",
+  "license": "MIT",
   "peerDependencies": {
     "react": "^16.4.2",
     "react-dom": "^16.4.2"
