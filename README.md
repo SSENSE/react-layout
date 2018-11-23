@@ -146,7 +146,7 @@ Notice a key point here, we didn't define an __md__ break-point in our Grid comp
 
 This design is meant for maximum flexibility an keeping it DRY.  Let's say you have a Grid that only has two meaningful break-points, __xs__ and __lg__.  Instead of requiring the user to input all of the meaningless in-between break-points, Layout will understand that below __lg__, the Grid will adopt the __xs__ definition.
 
-######API Reference
+###### API Reference
 
 __Grid__
 | Property | Type | Required | Description
