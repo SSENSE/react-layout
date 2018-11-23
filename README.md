@@ -149,18 +149,20 @@ This design is meant for maximum flexibility an keeping it DRY.  Let's say you h
 ###### API Reference
 
 __Grid__
+
 | Property | Type | Required | Description |
 | --- | --- | --- | --- |
-| xs | array | false | An array of two numbers: [columns, rows]
+| xs | array | false | An array of two numbers: [columns, rows] |
 | sm | | | |
 | md | | | |
 | lg | | | |
 | xl | | | |
 
 __Cell__
+
 | Property | Type | Required | Description |
 | --- | --- | --- | --- |
-| xs | array | false | An array of four numbers: [column start, column end, row start, row end], or `['*']` to occupy all columns
+| xs | array | false | An array of four numbers: [column start, column end, row start, row end], or `['*']` to occupy all columns |
 | sm | | | |
 | md | | | |
 | lg | | | |
