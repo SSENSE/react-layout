@@ -2,19 +2,21 @@
 
 The goal of this library is to create a cutting-edge, fully responsive layout component for use with React.  Inspired by [Material UI Grid](https://material-ui.com/layout/grid/), Layout aims to push the convention forward by using CSS Grid. By using this now production-ready technology, users can create layouts in two-dimensions.  This does not replace existing technologies like Flexbox, rather, it compliments them.  Layout shines at a high-level, for example in page layouts. That being said, it can also provide for very interesting patterns at all levels. Be bold!
 
-###### Table of Contents
-- Installation
-- Usage
-- API Reference
-- License
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [API Reference](#api)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contributors](#contributors)
 
-###### Installation
+### <a name="installation"></a>Installation
 
 ```
 npm install react-layout
 ```
 
-###### Usage
+### <a name="usage"></a>Usage
 
 Layout is comprised of two components; the `Grid` and the `Cell`.  The Grid is the parent; it defines how many `grid-columns` and `grid-rows` it will have at each given break-point.  
 
@@ -146,7 +148,7 @@ Notice a key point here, we didn't define an __md__ break-point in our Grid comp
 
 This design is meant for maximum flexibility an keeping it DRY.  Let's say you have a Grid that only has two meaningful break-points, __xs__ and __lg__.  Instead of requiring the user to input all of the meaningless in-between break-points, Layout will understand that below __lg__, the Grid will adopt the __xs__ definition.
 
-###### API Reference
+### <a name="api"></a>API Reference
 
 __Grid__
 
@@ -169,3 +171,21 @@ __Cell__
 | xl | | | |
 
 _*Although no perticular break-point prop is required, there must be at least one to work properly._
+
+### <a name="contributing"></a>Contributing
+
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+
+With any contribution, you accept all conditions implicitly defined in the [Code of Conduct](CODE_OF_CONDUCT.md)
+
+### <a name="license"></a>License
+
+React layout is [MIT licensed](LICENSE.md).
+
+### <a name="contributors"></a>Author
+
+Mark Conn <mark.conn@ssense.com>
+
+#### Maintainers:
+
+Quinn Langille - quinn.langille@ssense.com
