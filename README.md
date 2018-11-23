@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# react-layout
-=======
 # React Layout 📐
 
 The goal of this library is to create a cutting-edge, fully responsive layout component for use with React.  Inspired by [Material UI Grid](https://material-ui.com/layout/grid/), Layout aims to push the convention forward by using CSS Grid. By using this now production-ready technology, users can create layouts in two-dimensions.  This does not replace existing technologies like Flexbox, rather, it compliments them.  Layout shines at a high-level, for example in page layouts. That being said, it can also provide for very interesting patterns at all levels. Be bold!
