@@ -34,7 +34,7 @@ __xl__: >= _1800px_
 Firstly, when delcaring a Grid, one should include at least one breakpoint, and then pass an array of two numbers, these represent `grid-template-columns` and `grid-template-rows`, respectively.
 
 In practice, this looks like:
-```
+```js
 <Grid
     xs={[1, 1]}
     sm={[6, 5]}
@@ -43,7 +43,7 @@ In practice, this looks like:
 </Grid>
 ```
 Which means:
-```
+```js
 <Grid
     xs={[columns, rows]}
     sm={[columns, rows]}
@@ -56,7 +56,7 @@ Therefore, in the above example, we have defined a Grid that will have `1 column
 
 Now let's add a Cell.
 
-```
+```js
 <Grid
     xs={[1, 1]}
     sm={[6, 5]}
@@ -77,7 +77,7 @@ Notice the `'*'` string we passed to the __xs__ prop.  What this means is 'occup
 
 Let's add a few more Cells, and this time with __sm__ break-points.
 
-```
+```js
 <Grid
     xs={[1, 1]}
     sm={[6, 5]}
@@ -107,7 +107,7 @@ Lots going on here! Let's break it down.
 
 First, we've added two more Cells which have almost identical children, different coloured divs with some heights defined.  Next, we've added __sm__ breakpoints to each Cell.  But what are those numbers?
 
-```
+```js
 sm={[column start, column end, row start, row end]}
 ```
 So in the case of the first Cell, we dictate that the Cell will occupy from `1 to 7 of column space`, and from `1 to 2 of row space`.  If you inspect the Grid in your browser, you will see the lines and the Cells fitting neatly into them.
@@ -115,7 +115,7 @@ So in the case of the first Cell, we dictate that the Cell will occupy from `1 t
 At this point you may be asking; I thought that in __xs__ I defined a Grid of 1 column and 1 row, how can I have three Cells stacking at xs if they only have 1 row?  This is by design; we want users to be able to additively stack children beyond the confines of a given Grid if they so choose!
 
 Let's add an __md__ break-point to do something interesting
-```
+```js
 <Grid
     xs={[1, 1]}
     sm={[6, 5]}
@@ -184,7 +184,7 @@ React layout is [MIT licensed](LICENSE.md).
 
 ### <a name="contributors"></a>Author
 
-Mark Conn <mark.conn@ssense.com>
+Mark Conn - <mark.conn@ssense.com>
 
 #### Maintainers:
 
