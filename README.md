@@ -52,7 +52,7 @@ Which means:
 </Grid>
 ```
 
-Therefore, in the above example, we have defined a Grid that will have `1 column` and `1 row` at __xs__, and then ` columns` and `5 rows` at __sm__.
+Therefore, in the above example, we have defined a Grid that will have `1 column` and `1 row` at __xs__, and then `6 columns` and `5 rows` at __sm__.
 
 Now let's add a Cell.
 
