@@ -1,6 +1,6 @@
 {
-  "name": "react-layout",
-  "version": "0.0.2",
+  "name": "@ssense/layout",
+  "version": "0.0.3",
   "description": "A front end layout framework for react written with CSS grid",
   "main": "dist/index.js",
   "scripts": {
